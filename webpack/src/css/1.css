@@ -1,0 +1,17 @@
+ul li {
+    list-style: none;
+}
+
+
+/* 此样式存在浏览器兼容问题 在ie中不能显示 需要设置loader */
+
+::placeholder {
+    color: red;
+}
+
+#box {
+    width: 580px;
+    height: 400px;
+    background-color: pink;
+    background: url(../images/1.jpg)
+}
